@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map-data-standard last-update-date="08-05-2018" status="FINAL"
+    succeeds="08-11-2017" version="10.7">
+    <issued-by name="stroobants.t"/>
+    <versions>
+        <version creation-date="08-05-2018" number="10.7">
+            <comment><![CDATA[<p>Segment: Updated 'ULTRA' instructions for IMEA only</p>]]></comment>
+        </version>
+        <version creation-date="31-07-2017" number="10.6">
+            <comment><![CDATA[<p>India: updated subbrand list and updated 'variant' instructions.</p>]]></comment>
+        </version>
+        <version creation-date="31-07-2017" number="10.5">
+            <comment><![CDATA[<p>Pack Size: updated for Iberia.</p>
+<p>Segment: updated thick/ ultra (Libresse Classic and Naturella Comfort Plus).</p>
+<p>Variant: updated for India.</p>]]></comment>
+        </version>
+        <version creation-date="25-04-2017" number="10.4">
+            <comment><![CDATA[<p>India: Updated PACK SIZE instructions and one additional valuer added for Price Tier : 'NOT APPLICABLE'.</p>]]></comment>
+        </version>
+        <version creation-date="20-03-2017" number="10.3">
+            <comment><![CDATA[<p>Updated instructions for VARIANT attribute and additional subbrands added for competition brands in the closed SUBBRAND list.</p>]]></comment>
+        </version>
+        <version creation-date="27-01-2017" number="10.2">
+            <comment><![CDATA[<p>Creation of two additional mandatory hierarchies for Europe.</p>
+<p>Updated instructions for Pack Size, Segment (THICK) and&nbsp;Variant. Updated Subbrand list.</p>]]></comment>
+        </version>
+        <version creation-date="12-08-2016" number="10.1">
+            <comment><![CDATA[<p>Update of Topsheet definition.</p>]]></comment>
+        </version>
+        <version creation-date="08-08-2016" number="10.1">
+            <comment><![CDATA[<p>Update of Topsheet definition.</p>]]></comment>
+        </version>
+        <version creation-date="08-08-2016" number="10.1">
+            <comment><![CDATA[<p>Update of Topsheet definition.</p>]]></comment>
+        </version>
+        <version creation-date="29-06-2016" number="10.0">
+            <comment><![CDATA[<p>Creation of general definition, SUF, hierarchies and attributes.</p>]]></comment>
+        </version>
+        <version creation-date="23-05-2016" number="1.0">
+            <comment><![CDATA[Category created.]]></comment>
+        </version>
+    </versions>
+    <standard-category>
+        <sub-gbu id="BC_FC" long-desc="" long-name="FEMININE CARE" medium-name="FEMININE CARE"/>
+        <gbu id="GBC" long-desc="" long-name="BEAUTY &amp; GROOMING" medium-name="BEAUTY &amp; GROOMING"/>
+        <category creation-date="08-05-2018" id="FHG"
+            long-name="FEMININE HYGIENE V3 (FHG)" medium-name="FEMININE HYGIENE V3 (FHG)"/>
+        <description><![CDATA[<p><font size="2"><font size="2"></font></font></p>
+<p><font size="2"><font size="2">All disposable, external (pads and liners) and internal products (tampons), specifically designed for feminine hygiene, used during menstrual cycle and/ or every day use.</font></font></p>
+<p><font size="2"><font size="2"></font></font></p>
+<p>&nbsp;</p>]]></description>
+        <included-products><![CDATA[<ul>
+<li>All soluble and insoluble sanitary pads, napkins and towels.</li>
+<li>All extra large sizes of pad type.</li>
+<li>All compressed type sanitary towels.</li>
+<li>Press on towels with adhesive sticker.</li>
+<li>Pads that have to be worn with a garment, recommended or otherwise.</li>
+<li>All pantyliners and pantyshields.</li>
+<li>All tampon types.Tampons with Pro-biotic action.Tampons to be worn for protection while bathing/ swimming (e.g. 'Senta Bathing' and 'Protective Tampons').</li>
+<li>Carefree Plus Ultra, Always Pro Fresh and Always Xtra-Protect.</li>
+<li>Disposable pants to be worn during menstruation period instead of a pad.</li>
+</ul>]]></included-products>
+        <excluded-products><![CDATA[<ul>
+<li><font size="2"><font size="2">All incontinence pads/ garments.</font></font></li>
+<li><font size="2"><font size="2">All sanitary towel belts.</font></font></li>
+<li><font size="2"><font size="2">All washable napkins.</font></font></li>
+<li><font size="2"><font size="2">All maternity pads.</font></font></li>
+<li><font size="2"><font size="2">Absorbent items such as toilet tissue, facial tissue or cotton items, marketed for multi-purpose use.</font></font></li>
+<li><font size="2"><font size="2">Re-usable menstrual cups which can be used for the whole cycle (e.g Mooncup).</font></font></li>
+<li><font size="2"><font size="2">A second pad that needs to be worn in addition to a regular pad.</font></font></li>
+</ul>]]></excluded-products>
+        <known-discrepancies><![CDATA[<ul>
+<li><strong><u>Phillipines, Korea and Taiwan: </u></strong>Include Maternity Pads.</li>
+</ul>
+<p>&nbsp;</p>
+<ul>
+<li><u><strong>Canada:</strong></u>Excludes Sanitary Towels</li>
+</ul>]]></known-discrepancies>
+        <stat-unit-factor>
+            <comment><![CDATA[]]></comment>
+            <suf header="no" product="Pads and Tampons"
+                unit="pads/ tampons" value-per-su="240">
+                <comment><![CDATA[]]></comment>
+            </suf>
+            <suf header="no" product="Pantyliners" unit="pantyliners" value-per-su="360">
+                <comment><![CDATA[]]></comment>
+            </suf>
+        </stat-unit-factor>
+        <comment><![CDATA[<p>Segment: Updated 'ULTRA' instructions for IMEA only</p>]]></comment>
+        <product-closed-attributes>
+            <attribute-type id="635" long-name="WINGS" medium-name="635">
+                <comment><![CDATA[]]></comment>
+                <value
+                    long-desc="in case of winged and non -winged items in one pack."
+                    long-name="MIXED" medium-name="MIXED">MT</value>
+                <value long-desc="pads only: without wings"
+                    long-name="NO WINGS" medium-name="NO WINGS">NT</value>
+                <value long-desc="for tampons and liners."
+                    long-name="NOT APPLICABLE" medium-name="NOT APPLICABLE">NW</value>
+                <value long-desc="pads only: with wings."
+                    long-name="WINGS" medium-name="WINGS">WP</value>
+            </attribute-type>
+            <attribute-type id="634" long-name="TOPSHEET" medium-name="634">
+                <comment><![CDATA[<p>IMEA only</p>
+<p>Not applicable for Liners and Tampons.</p>]]></comment>
+                <value
+                    long-desc="follow instructions in attached document."
+                    long-name="MESH/HYBRID" medium-name="MESH/HYBRID">MP</value>
+                <value
+                    long-desc="follow instructions in attached document."
+                    long-name="NON WOVEN" medium-name="NON WOVEN">NF</value>
+                <value long-desc="for liners and tampons."
+                    long-name="NOT APPLICABLE" medium-name="NOT APPLICABLE">NX</value>
+            </attribute-type>
+            <attribute-type id="222" long-name="VARIANT" medium-name="222">
+                <comment><![CDATA[<p><font size="2"><font size="2"></font></font></p>
+<p><font size="2"><font size="2">For India: In case of new items, contact the local P&amp;G team.</font></font></p>
+<p><font size="2"><font size="2"></font></font></p>
+<p><font size="2"><font size="2">Each time the 'Sanitary Napkin Items -list' gets updated, it needs to be shared with the Global DS</font></font></p>
+<p><font size="2"><font size="2"></font></font></p>
+<p><font size="2"><font size="2">team so it will be posted on Box.</font></font></p>
+<p><font size="2"><font size="2"></font></font></p>
+<p><font size="2"><font size="2">In case a new code is needed, you need to request it from the Global DS team.</font></font></p>
+<p><font size="2"><font size="2"></font></font></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>]]></comment>
+                <value long-desc="liners: 'flexicomfort' on pack"
+                    long-name="FLEXICOMFORT" medium-name="FLEXICOMFORT">F2</value>
+                <value
+                    long-desc="liners: 'large', 'large plus' or 'extra large'on pack. includes 'carefree plus ultra and 'always profresh normal.'."
+                    long-name="LARGE" medium-name="LARGE">LN</value>
+                <value
+                    long-desc="pads (emea): 'long', 'super', 'super plus, 'ultra long', maxi, large, large plus, extra long, super long or 'long plus' on pack. includes 'evax fina y segura maxi'. for liners: 'long' on pack"
+                    long-name="LONG" medium-name="LONG">L4</value>
+                <value
+                    long-desc="pads (emea) and tampons: mini or light on pack."
+                    long-name="MINI" medium-name="MINI">M2</value>
+                <value
+                    long-desc="pads (emea), liners and tampons: in case of different variants in one pack."
+                    long-name="MIXED" medium-name="MIXED">MU</value>
+                <value
+                    long-desc="liners: 'multiform', 'flexistyle', flexiform' or 'adapts to all panties' on pack."
+                    long-name="MULTIFORM" medium-name="MULTIFORM">MD</value>
+                <value
+                    long-desc="pads (emea) and tampons: 'night' on pack. includes 'evax cottonlike super plus'."
+                    long-name="NIGHT" medium-name="NIGHT">NU</value>
+                <value
+                    long-desc="pads (emea): 'night plus' on pack. in europe this also includes 'always secure night'."
+                    long-name="NIGHT PLUS" medium-name="NIGHT PLUS">NF</value>
+                <value
+                    long-desc="pads (emea), liners and tampons: 'normal'or 'regular' on pack. note that in case 'maxi' and 'normal' together on pack, code under 'normal'. default value if nothing is on pack. for iberia liners: includes 'deliplus clasico' and 'deliplus 2in1'."
+                    long-name="NORMAL" medium-name="NORMAL">NR</value>
+                <value
+                    long-desc="pads (emea)/ iberia and imea: 'normal plus' on pack."
+                    long-name="NORMAL PLUS" medium-name="NORMAL PLUS">NH</value>
+                <value
+                    long-desc="pads (india): see instructions in 'sanitary napkin items -list'."
+                    long-name="NOT APPLICABLE" medium-name="NOT APPLICABLE">NUA</value>
+                <value long-desc="thin pads that are regular/ normal."
+                    long-name="S1" medium-name="S1">S9</value>
+                <value
+                    long-desc="pads (india): thin pads that are xl/ long / extra long. including all whisper ultra clean and ultra soft l."
+                    long-name="S3" medium-name="S3">SE</value>
+                <value
+                    long-desc="pads (india): thin pads that are xxl / super long/ xl+. including all whisper ultra clean and ultra soft xl."
+                    long-name="S5" medium-name="S5">SR</value>
+                <value
+                    long-desc="pads (india): thin pads that are night and night xl."
+                    long-name="S5 AB" medium-name="S5 AB">SU</value>
+                <value
+                    long-desc="pads (india): thin pads that are xxxl/ night xxl/ overnight xxl."
+                    long-name="S7" medium-name="S7">SZA</value>
+                <value
+                    long-desc="pads (india): thin pads that are night xxxl/overnight xxxl."
+                    long-name="S9" medium-name="S9">U4A</value>
+                <value long-desc="pads (emea):'string' on pack"
+                    long-name="STRING" medium-name="STRING">SC</value>
+                <value long-desc="tampons: 'super' on pack."
+                    long-name="SUPER" medium-name="SUPER">SZ</value>
+                <value
+                    long-desc="tampons: 'super plus' or 'ultra' on pack."
+                    long-name="SUPER PLUS" medium-name="SUPER PLUS">SL</value>
+                <value
+                    long-desc="pads (india): thick maxi pads that are regular/ normal length."
+                    long-name="T1" medium-name="T1">TO</value>
+                <value
+                    long-desc="pads (india): thick maxi pads that are regular/ normal length without wings. "
+                    long-name="T2" medium-name="T2">TJA</value>
+                <value
+                    long-desc="pads (india): thick maxi pads that are xl/ long / extra long."
+                    long-name="T3" medium-name="T3">TD</value>
+                <value
+                    long-desc="pads (india): thick maxi pads that are xxl / super long."
+                    long-name="T5" medium-name="T5">TK</value>
+                <value
+                    long-desc="pads (india): thick maxi pads that are night xl / overnight xl."
+                    long-name="T5 AB" medium-name="T5 AB">TKA</value>
+                <value
+                    long-desc="pads (india): thick maxi pads that are xxxl/ night xxl / overnight xxl."
+                    long-name="T7" medium-name="T7">T7</value>
+                <value
+                    long-desc="pads (india): thick maxi pads that are  night xxxl/ overnight xxxl."
+                    long-name="T9" medium-name="T9">TDA</value>
+                <value
+                    long-desc="liners: 'ultra thin', 'micro', 'string', 'thong', 'small', 'xs' or '2in1' on pack. for iberia: evax salva adapt, finos, tanga and ultra fino, tanga or micro on pack."
+                    long-name="ULTRA THIN" medium-name="ULTRA THIN">UO</value>
+            </attribute-type>
+            <attribute-type id="220" long-name="TYPE" medium-name="220">
+                <comment><![CDATA[<p><font size="2"><font size="2"></font></font></p>
+<p><font size="2"><font size="2">In case of mixed packs, including different types, code as type with biggest volume.</font></font></p>
+<p><font size="2"><font size="2"></font></font></p>
+<p><font size="2"><font size="2">If no knowledge of amount/ type or amount is equal, use following priority:</font></font></p>
+<p><font size="2"><font size="2"></font></font></p>
+<p><font size="2"><font size="2">- If pads are in pack, always code as 'PADS'.</font></font></p>
+<p><font size="2"><font size="2"></font></font></p>
+<p><font size="2"><font size="2">- Pack with only Liners and Tampons, should be placed under 'LINERS'.</font></font></p>
+<p><font size="2"><font size="2"></font></font></p>
+<p><font size="2"><font size="2">All other attributes will then be coded according to that type.</font></font></p>
+<p><font size="2"><font size="2"></font></font></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>]]></comment>
+                <value
+                    long-desc="external protection used during period. includes pants to be worn during menstruation period instead of a pad."
+                    long-name="PADS" medium-name="PADS">P5</value>
+                <value
+                    long-desc="external protection used during and outside of menstruation period."
+                    long-name="PANTYLINERS" medium-name="PANTYLINERS">P4</value>
+                <value
+                    long-desc="internal protection used during menstruation period."
+                    long-name="TAMPONS" medium-name="TAMPONS">TY</value>
+            </attribute-type>
+            <attribute-type id="167" long-name="SEGMENT" medium-name="167">
+                <comment><![CDATA[]]></comment>
+                <value
+                    long-desc="tampons only: product is sold inside a cardboard. labelled as 'cardboard applicator', 'satin' or 'flushable'. does not say 'compak' or 'pearl'."
+                    long-name="CARDBOARD APPLICATOR" medium-name="CARDBOARD APPLICATOR">C3</value>
+                <value
+                    long-desc="tampons only: default value. product has to be inserted manually with no plastic or cardboard tube applicator."
+                    long-name="DIGITAL" medium-name="DIGITAL">D2</value>
+                <value
+                    long-desc="liners only: thick, long, super, large, maxi on pack. includes always discreet large, carefree plus ultra, always large pro fresh, always pro-fresh normal  and always large xtra protect plus. imea is also including fresh&amp;protect."
+                    long-name="HIGH PHYSICAL NEED" medium-name="HIGH PHYSICAL NEED">H1</value>
+                <value
+                    long-desc="liners only. light, air, invisible, slim, thin, ultra thin, discreet, voile, small, micro, mini, multiform, tanga and string on pack. excluding: 'always small light', 'always discreet large', 'always small', 'always normal flexistyle' and 'carefree flexiform'. including: 'always voile', 'always slim multiform', 'always slim flexistyle', 'always tanga', 'evax tanga', 'evax finos&amp;adapt', 'carefree string', 'carefree flexicomfort', vania perfect + finesse' and 'carefree perfect fit'. note that references to thin, ultra thin or slim have priority above other references and should always be placed under lpn."
+                    long-name="LOW PHYSICAL NEED" medium-name="LOW PHYSICAL NEED">LX</value>
+                <value
+                    long-desc="in case of different segments in pack."
+                    long-name="MIXED" medium-name="MIXED">MF</value>
+                <value
+                    long-desc="liners only. default value if nothing is on pack. 'normal' or 'regular' on pack. including 'always small light', 'always small',  'always discreet large', 'always normal protect', 'always extra protect plus', 'twist&amp;flex', 'naturella comfort plus', 'carefree original', 'always normal flexistyle', 'carefree flexiform', 'vania flexi+' and all adaptable or multiform products with 'normal' or 'regular' thickness."
+                    long-name="NORMAL PHYSICAL NEED" medium-name="NORMAL PHYSICAL NEED">NI</value>
+                <value
+                    long-desc="tampons only: product is sold inside a plastic tube, labelled as 'plastic applicator', 'compact', 'compak', 'pearl', 'portables', to ease insertion."
+                    long-name="PLASTIC APPLICATOR" medium-name="PLASTIC APPLICATOR">PR</value>
+                <value
+                    long-desc="pads only: 'maxi' or classic (europe) on pack. default value if nothing is on pack. includes all 'libresse classic'"
+                    long-name="THICK" medium-name="THICK">T7</value>
+                <value
+                    long-desc="pads only. eurpe: ultra, ultra thin, extran thin, thin, ultra plus, cotton touch, light, slim or invisible on pack. includes all 'sensitive' references, unless 'maxi' or 'classic' on pack. includes always infinity, always silk collection, always 'twist&amp;flex', soft&amp;fit, always simply fit, always night, always light 2in1 pads, all ausonia mainline, evax cottonlike (except evax cananles and evax nuova), fina y segure, evax&amp;go (freshelle), evax liberty and ausonia sensitive sku's. excludes sofy slim and kotex slim. imea: 'ultra', 'thin', 'ultra thin', 'extra thin', 'slim', 'ultra slim', 'extra slim', 'ultra plus' or 'invisible ' on pack. above references have priority in case they are combined with 'maxi' or 'classic'."
+                    long-name="ULTRA" medium-name="ULTRA">UA</value>
+            </attribute-type>
+            <attribute-type id="163" long-name="SCENT" medium-name="163">
+                <comment><![CDATA[]]></comment>
+                <value
+                    long-desc="default value: if no mentioning or reference of a scent on pack."
+                    long-name="NOT SCENTED" medium-name="NOT SCENTED">N6</value>
+                <value
+                    long-desc="says so on pack, mostly says 'freshness / fresh / scented / perfumed'. including 'lightly scented' always ultra pads ."
+                    long-name="SCENTED" medium-name="SCENTED">S7</value>
+            </attribute-type>
+            <attribute-type id="150" long-name="PRICE TIER" medium-name="150">
+                <comment><![CDATA[<p>India only</p>]]></comment>
+                <value long-desc="&lt;70 ix" long-name="LOW TIER" medium-name="LOW TIER">LZ</value>
+                <value long-desc="70-150 ix" long-name="MID TIER" medium-name="MID TIER">MX</value>
+                <value
+                    long-desc="only to be used after specific instruction from p&amp;g global ds team"
+                    long-name="NOT APPLICABLE" medium-name="NOT APPLICABLE">NT</value>
+                <value long-desc=">200ix price/su vs category"
+                    long-name="PREMIUM TIER" medium-name="PREMIUM TIER">P3</value>
+                <value long-desc="150-200 ix" long-name="TOP TIER" medium-name="TOP TIER">TK</value>
+            </attribute-type>
+            <attribute-type id="140" long-name="PACK SIZE" medium-name="140">
+                <comment><![CDATA[<p><font size="2"><font size="2"></font></font></p>
+<p><font size="2"><font size="2">Only for Europe, South Africa&nbsp; and India.</font></font></p>
+<p><font size="2"><font size="2"></font></font></p>
+<p><font size="2"><font size="2">Not applicable for other MEA - countries.</font></font></p>
+<p><font size="2"><font size="2"></font></font></p>
+<p><font size="2"><font size="2">Based on total amount of items in pack. (including promo items)</font></font></p>
+<p><font size="2"><font size="2"></font></font></p>
+<p>&nbsp;</p>
+<p>In case the variant is MIXED, code as not applicable.</p>
+<p>&nbsp;</p>]]></comment>
+                <value long-desc="india only: > 30 counts"
+                    long-name="BULK" medium-name="BULK">BU</value>
+                <value
+                    long-desc="for europe, india and south africa, follow instructions in attached document."
+                    long-name="DUO PACK" medium-name="DUO PACK">DW</value>
+                <value
+                    long-desc="for europe and south africa, follow instructions in attached document."
+                    long-name="GIGA PACK" medium-name="GIGA PACK">G9</value>
+                <value long-desc="india only: 6 - 10 counts"
+                    long-name="MEDIUM" medium-name="MEDIUM">MP</value>
+                <value
+                    long-desc="mea countries, excluding south africa as pack size is not tracked there. for europe, india and south africa to be used in case of packs with 'mixed' variants."
+                    long-name="NOT APPLICABLE" medium-name="NOT APPLICABLE">N1</value>
+                <value
+                    long-desc="for europe and south africa, follow instructions in attached document."
+                    long-name="QUATTRO PACK" medium-name="QUATTRO PACK">Q3</value>
+                <value
+                    long-desc="for europe and south africa, follow instructions in attached document."
+                    long-name="SINGLE PACK" medium-name="SINGLE PACK">SL</value>
+                <value
+                    long-desc="for europe and south africa, follow instructions in attached document."
+                    long-name="SINGLE PACK +" medium-name="SINGLE PACK +">SI</value>
+                <value long-desc="india only: &lt; 6 counts"
+                    long-name="SMALL" medium-name="SMALL">SV</value>
+                <value
+                    long-desc="for europe and south africa, follow instructions in attached document."
+                    long-name="TRIAL PACK" medium-name="TRIAL PACK">TI</value>
+                <value
+                    long-desc="for europe, india and south africa, follow instructions in attached document."
+                    long-name="TRIO PACK" medium-name="TRIO PACK">TR</value>
+            </attribute-type>
+            <attribute-type id="86" long-name="FORMAT" medium-name="86">
+                <comment><![CDATA[]]></comment>
+                <value
+                    long-desc="not wrapped. default value for liners."
+                    long-name="FLAT" medium-name="FLAT">F4</value>
+                <value
+                    long-desc="in case of different formats in one pack."
+                    long-name="MIXED" medium-name="MIXED">MX</value>
+                <value long-desc="for tampons."
+                    long-name="NOT APPLICABLE" medium-name="NOT APPLICABLE">N5</value>
+                <value
+                    long-desc="folded and wrapped in a sheet or a bag/pocket for disposal. there is a visual on pack that shows the liner/pad inside a wrap. default for pads."
+                    long-name="WRAPPED" medium-name="WRAPPED">W3</value>
+            </attribute-type>
+        </product-closed-attributes>
+        <product-open-attributes>
+            <attribute-type id="191" long-name="SUBBRAND"
+                medium-name="191" semi-open-flag="true">
+                <comment><![CDATA[<p>See attached document.</p>
+<p><font size="2"><font size="2"></font></font></p>
+<p><font size="2"><font size="2">Closed list for P&amp;G and main competitor brands (not&nbsp; PL&nbsp; brands). Open coding for remaining&nbsp;brands.</font></font></p>
+<p><font size="2"><font size="2"></font></font></p>
+<p><font size="2"><font size="2">In case a new P&amp;G or main competitor product is found or in case of doubt, always contact P&amp;G for instructions.</font></font></p>
+<p><font size="2"><font size="2"></font></font></p>
+<p><font size="2"><font size="2">In case nothing on pack, code as 'BASE'.</font></font></p>
+<p><font size="2"><font size="2"></font></font></p>
+<p><font size="2"><font size="2">'NOT APPLICABLE' for RB and AO.</font></font></p>
+<p><font size="2"><font size="2"></font></font></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>]]></comment>
+            </attribute-type>
+            <attribute-type id="154" long-name="PROMOTION"
+                medium-name="154" semi-open-flag="false">
+                <comment><![CDATA[<p>India only</p>]]></comment>
+            </attribute-type>
+            <attribute-type id="122" long-name="COMPANY"
+                medium-name="122" semi-open-flag="false">
+                <comment><![CDATA[<p><font size="2"><font size="2"></font></font></p>
+<p><font size="2"><font size="2">Branded Companies need to be detailed seperately according to the following rules:</font></font></p>
+<p><font size="2"><font size="2"></font></font></p>
+<ol><font size="2"><font size="2">
+<li>Each Company with a share (volume or value) higher than 3%.</li>
+<li>Companies specifically requested by the MDO.Retailer Brand Company should be detailed as a seperate company. If allowed, retailers can be split seperately from this, e.g. RB Aldi, RB Lidl, RB Tesco, etc. All remaining Brands can be lumped together in All Other Companies. This company should have a share lower than 20%.</li>
+</font></font></ol>
+<p>&nbsp;</p>
+<p>&nbsp;</p>]]></comment>
+            </attribute-type>
+            <attribute-type id="63" long-name="COUNT" medium-name="63" semi-open-flag="false">
+                <comment><![CDATA[<p><font size="2"><font size="2"></font></font></p>
+<p><font size="2"><font size="2">Total amount of items in pack, including promotion and multipacks.</font></font></p>
+<p><font size="2"><font size="2"></font></font></p>
+<p><font size="2"><font size="2">Delivered in 'X'</font></font></p>
+<p><font size="2"><font size="2"></font></font></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>]]></comment>
+            </attribute-type>
+            <attribute-type id="35" long-name="BRAND" medium-name="35" semi-open-flag="false">
+                <comment><![CDATA[<p><font size="2"><font size="2"></font></font></p>
+<p><font size="2"><font size="2">All Brands of each reported company should be detailed seperately. No Brands should be lumped together except for Private Label Brands and All Other Brands. Brands should be coded under their global holding company and not under their local distributor or marketing company. Retailer Brand Company and All Other Company should only have 1 Brand; respectively Retailer Brands and All Other Brands.</font></font></p>
+<p><font size="2"><font size="2"></font></font></p>
+<p>&nbsp;</p>]]></comment>
+            </attribute-type>
+        </product-open-attributes>
+        <hierarchies>
+            <required-hierarchies>
+                <hierarchy code="FHG_H1" description="E-IMEA"
+                    long-name="FHG - MAIN - H1" mandatory-flag="y" medium-name="MAIN">
+                    <level long-name="CATEGORY" medium-name="CATEGORY"
+                        name="CATEGORY" number="1"><![CDATA[]]></level>
+                    <level long-name="TYPE" medium-name="TYPE"
+                        name="TYPE" number="2"><![CDATA[]]></level>
+                    <level long-name="COMPANY" medium-name="COMPANY"
+                        name="COMPANY" number="3"><![CDATA[]]></level>
+                    <level long-name="BRAND" medium-name="BRAND"
+                        name="BRAND" number="4"><![CDATA[]]></level>
+                    <level long-name="SUBBRAND" medium-name="SUBBRAND"
+                        name="SUBBRAND" number="5"><![CDATA[]]></level>
+                    <level long-name="SEGMENT" medium-name="SEGMENT"
+                        name="SEGMENT" number="6"><![CDATA[]]></level>
+                    <level long-name="VARIANT" medium-name="VARIANT"
+                        name="VARIANT" number="7"><![CDATA[]]></level>
+                    <level long-name="COUNT" medium-name="COUNT"
+                        name="COUNT" number="8"><![CDATA[]]></level>
+                    <level long-name="ITEM" medium-name="ITEM"
+                        name="ITEM" number="9"><![CDATA[]]></level>
+                </hierarchy>
+                <hierarchy code="FHG_H2" description="E-IMEA"
+                    long-name="FHG - E-IMEA - SUBBRAND - H2"
+                    mandatory-flag="y" medium-name="E-IMEA - SUBBRAND">
+                    <level long-name="CATEGORY" medium-name="CATEGORY"
+                        name="CATEGORY" number="1"><![CDATA[]]></level>
+                    <level long-name="COMPANY" medium-name="COMPANY"
+                        name="COMPANY" number="2"><![CDATA[]]></level>
+                    <level long-name="BRAND" medium-name="BRAND"
+                        name="BRAND" number="3"><![CDATA[]]></level>
+                    <level long-name="TYPE" medium-name="TYPE"
+                        name="TYPE" number="4"><![CDATA[]]></level>
+                    <level long-name="SUBBRAND" medium-name="SUBBRAND"
+                        name="SUBBRAND" number="5"><![CDATA[]]></level>
+                    <level long-name="PACK SIZE" medium-name="PACK SIZE"
+                        name="PACK SIZE" number="6"><![CDATA[]]></level>
+                    <level long-name="FORMAT" medium-name="FORMAT"
+                        name="FORMAT" number="7"><![CDATA[]]></level>
+                    <level long-name="WINGS" medium-name="WINGS"
+                        name="WINGS" number="8"><![CDATA[]]></level>
+                </hierarchy>
+                <hierarchy code="FHG_H3" description="IMEA only"
+                    long-name="FHG - IMEA - SUBBRAND/ TOPSHEET - H3"
+                    mandatory-flag="y" medium-name="IMEA - SUBBRAND/ TOPSHEET">
+                    <level long-name="CATEGORY" medium-name="CATEGORY"
+                        name="CATEGORY" number="1"><![CDATA[]]></level>
+                    <level long-name="COMPANY" medium-name="COMPANY"
+                        name="COMPANY" number="2"><![CDATA[]]></level>
+                    <level long-name="BRAND" medium-name="BRAND"
+                        name="BRAND" number="3"><![CDATA[]]></level>
+                    <level long-name="TYPE" medium-name="TYPE"
+                        name="TYPE" number="4"><![CDATA[]]></level>
+                    <level long-name="SUBBRAND" medium-name="SUBBRAND"
+                        name="SUBBRAND" number="5"><![CDATA[]]></level>
+                    <level long-name="TOPSHEET" medium-name="TOPSHEET"
+                        name="TOPSHEET" number="6"><![CDATA[]]></level>
+                    <level long-name="SCENT" medium-name="SCENT"
+                        name="SCENT" number="7"><![CDATA[]]></level>
+                    <level long-name="COUNT" medium-name="COUNT"
+                        name="COUNT" number="8"><![CDATA[]]></level>
+                </hierarchy>
+                <hierarchy code="FHG_H4" description="E-IMEA"
+                    long-name="FHG - E-IMEA - SEGMENT - H4"
+                    mandatory-flag="y" medium-name="E-IMEA - SEGMENT">
+                    <level long-name="CATEGORY" medium-name="CATEGORY"
+                        name="CATEGORY" number="1"><![CDATA[]]></level>
+                    <level long-name="COMPANY" medium-name="COMPANY"
+                        name="COMPANY" number="2"><![CDATA[]]></level>
+                    <level long-name="BRAND" medium-name="BRAND"
+                        name="BRAND" number="3"><![CDATA[]]></level>
+                    <level long-name="TYPE" medium-name="TYPE"
+                        name="TYPE" number="4"><![CDATA[]]></level>
+                    <level long-name="SEGMENT" medium-name="SEGMENT"
+                        name="SEGMENT" number="5"><![CDATA[]]></level>
+                    <level long-name="PACK SIZE" medium-name="PACK SIZE"
+                        name="PACK SIZE" number="6"><![CDATA[]]></level>
+                    <level long-name="FORMAT" medium-name="FORMAT"
+                        name="FORMAT" number="7"><![CDATA[]]></level>
+                    <level long-name="WINGS" medium-name="WINGS"
+                        name="WINGS" number="8"><![CDATA[]]></level>
+                </hierarchy>
+                <hierarchy code="FHG_H5" description="IMEA only"
+                    long-name="FHG - IMEA - SEGMENT/ TOPSHEET - H5"
+                    mandatory-flag="y" medium-name="IMEA - SEGMENT/ TOPSHEET">
+                    <level long-name="CATEGORY" medium-name="CATEGORY"
+                        name="CATEGORY" number="1"><![CDATA[]]></level>
+                    <level long-name="COMPANY" medium-name="COMPANY"
+                        name="COMPANY" number="2"><![CDATA[]]></level>
+                    <level long-name="BRAND" medium-name="BRAND"
+                        name="BRAND" number="3"><![CDATA[]]></level>
+                    <level long-name="TYPE" medium-name="TYPE"
+                        name="TYPE" number="4"><![CDATA[]]></level>
+                    <level long-name="SEGMENT" medium-name="SEGMENT"
+                        name="SEGMENT" number="5"><![CDATA[]]></level>
+                    <level long-name="TOPSHEET" medium-name="TOPSHEET"
+                        name="TOPSHEET" number="6"><![CDATA[]]></level>
+                    <level long-name="SCENT" medium-name="SCENT"
+                        name="SCENT" number="7"><![CDATA[]]></level>
+                    <level long-name="COUNT" medium-name="COUNT"
+                        name="COUNT" number="8"><![CDATA[]]></level>
+                </hierarchy>
+                <hierarchy code="FHG_H7" description="EUROPE only"
+                    long-name="FHG - EUROPE - COUNT/ PACKSIZE - H7"
+                    mandatory-flag="y" medium-name="EUROPE - COUNT/ PACKSIZE">
+                    <level long-name="CATEGORY" medium-name="CATEGORY"
+                        name="CATEGORY" number="1"><![CDATA[]]></level>
+                    <level long-name="BRAND" medium-name="BRAND"
+                        name="BRAND" number="2"><![CDATA[]]></level>
+                    <level long-name="TYPE" medium-name="TYPE"
+                        name="TYPE" number="3"><![CDATA[]]></level>
+                    <level long-name="SUBBRAND" medium-name="SUBBRAND"
+                        name="SUBBRAND" number="4"><![CDATA[]]></level>
+                    <level long-name="SEGMENT" medium-name="SEGMENT"
+                        name="SEGMENT" number="5"><![CDATA[]]></level>
+                    <level long-name="SCENT" medium-name="SCENT"
+                        name="SCENT" number="6"><![CDATA[]]></level>
+                    <level long-name="COUNT" medium-name="COUNT"
+                        name="COUNT" number="7"><![CDATA[]]></level>
+                    <level long-name="PACK SIZE" medium-name="PACK SIZE"
+                        name="PACK SIZE" number="8"><![CDATA[]]></level>
+                </hierarchy>
+                <hierarchy code="FHG_H8" description="EUROPE only"
+                    long-name="FHG - EUROPE - VARIANT/ PACKSIZE - H8"
+                    mandatory-flag="y" medium-name="EUROPE - VARIANT/ PACKSIZE">
+                    <level long-name="CATEGORY" medium-name="CATEGORY"
+                        name="CATEGORY" number="1"><![CDATA[]]></level>
+                    <level long-name="COMPANY" medium-name="COMPANY"
+                        name="COMPANY" number="2"><![CDATA[]]></level>
+                    <level long-name="BRAND" medium-name="BRAND"
+                        name="BRAND" number="3"><![CDATA[]]></level>
+                    <level long-name="TYPE" medium-name="TYPE"
+                        name="TYPE" number="4"><![CDATA[]]></level>
+                    <level long-name="SUBBRAND" medium-name="SUBBRAND"
+                        name="SUBBRAND" number="5"><![CDATA[]]></level>
+                    <level long-name="SEGMENT" medium-name="SEGMENT"
+                        name="SEGMENT" number="6"><![CDATA[]]></level>
+                    <level long-name="VARIANT" medium-name="VARIANT"
+                        name="VARIANT" number="7"><![CDATA[]]></level>
+                    <level long-name="PACK SIZE" medium-name="PACK SIZE"
+                        name="PACK SIZE" number="8"><![CDATA[]]></level>
+                </hierarchy>
+            </required-hierarchies>
+            <optional-hierarchies>
+                <hierarchy code="FHG_H6" description="INDIA only"
+                    long-name="FHG - INDIA - H6" mandatory-flag="n" medium-name="INDIA">
+                    <level long-name="CATEGORY" medium-name="CATEGORY"
+                        name="CATEGORY" number="1"><![CDATA[]]></level>
+                    <level long-name="COMPANY" medium-name="COMPANY"
+                        name="COMPANY" number="2"><![CDATA[]]></level>
+                    <level long-name="BRAND" medium-name="BRAND"
+                        name="BRAND" number="3"><![CDATA[]]></level>
+                    <level long-name="SUBBRAND" medium-name="SUBBRAND"
+                        name="SUBBRAND" number="4"><![CDATA[]]></level>
+                    <level long-name="SEGMENT" medium-name="SEGMENT"
+                        name="SEGMENT" number="5"><![CDATA[]]></level>
+                    <level long-name="VARIANT" medium-name="VARIANT"
+                        name="VARIANT" number="6"><![CDATA[]]></level>
+                    <level long-name="PRICE TIER"
+                        medium-name="PRICE TIER" name="PRICE TIER" number="7"><![CDATA[]]></level>
+                    <level long-name="PROMOTION" medium-name="PROMOTION"
+                        name="PROMOTION" number="8"><![CDATA[]]></level>
+                </hierarchy>
+            </optional-hierarchies>
+        </hierarchies>
+        <attachments>
+            <attach-file
+                file-name="FEMININE HYGIENE V3 instructions_21082017.xlsx" file-sec="ATTRIB"/>
+        </attachments>
+    </standard-category>
+</map-data-standard>
